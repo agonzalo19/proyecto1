@@ -1,0 +1,392 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f4fc;
+}
+
+/* Tipografias */
+
+/* colores */
+
+.bg {
+  --accent: #43d2ff;
+  --primary: #072ac8;
+  --primary-hover: #a2d6f9;
+  --primary-tapped: #d1edff;
+  --secondary: #ffc600;
+  --secondary2: #fce300;
+  --neutral-dark: #292e47;
+  --neutral-medium: #6b708d;
+  --neutral-light: #f2f4fc;
+  --neutral-light-blue: #ecf7ff;
+  --white: #ffffff;
+}
+
+.primary-bg {
+  background-color: var(--primary);
+}
+
+.primary-txt {
+  color: var(--primary);
+}
+
+.primary-tapped-bg {
+  background-color: var(--primary-tapped);
+}
+
+.primary-hover-bg {
+  background-color: var(--primary-hover);
+}
+
+.primary-hover-txt {
+  color: var(--primary-hover);
+}
+
+.secondary-bg {
+  background-color: var(--secondary);
+}
+
+.secondary-txt {
+  background-color: var(--secondary);
+}
+
+.bg {
+  background-color: var(--neutral-light);
+}
+
+.txt-white {
+  color: var(--white);
+}
+.txt-dark {
+  color: var(--neutral-dark);
+}
+
+.txt-medium {
+  background-color: var(--neutral-medium);
+}
+
+/* colores */
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 70px;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 59px;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 47px;
+}
+
+h4 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.body-txt-medium {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.body-txt-regular {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.headline-regular {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 150%;
+}
+
+.headline-medium {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+}
+
+.caption-regular {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 130%;
+}
+
+.caption-small {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+/* Header */
+li,
+a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #6b708d;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 70px 170px;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.navbar {
+  list-style: none;
+}
+
+.navbar li {
+  display: inline-block;
+  padding: 0 30px;
+}
+
+.navbar li a {
+  transition: all 0, 3s ease 0s;
+}
+
+.navbar li a:hover {
+  color: #072ac8;
+}
+
+.cta {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  padding: 15px 36px;
+  background-color: #072ac8;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  transition: all 0, 3s ease 0s;
+}
+
+.cta:hover {
+  background-color: #a2d6f9;
+}
+
+/* Hero Section */
+
+.content {
+  border: solid;
+  border-color: #072ac8;
+  position: absolute;
+  width: 100%;
+  height: 4650px;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: row;
+  border: solid;
+  border-color: #072ac8;
+  width: 100%;
+  height: 650px;
+  top: 222px;
+  justify-content: space-between;
+}
+
+.imatge-hero {
+  background-image: url("project-assets/hero-section/hero-image.png");
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  width: 100%;
+  height: 650px;
+  border: solid;
+  border-color: #a5c807;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  height: 422px;
+  border: solid;
+  margin-top: 109px;
+  margin-left: 170px;
+  margin-bottom: 119px;
+  padding-right: 70px;
+  border-color: #c80798;
+}
+
+.hero-content p {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.btn-hero {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.btn-ourwork {
+  margin-left: 40px;
+}
+
+.imatge-hero {
+  width: 570px;
+  height: 650px;
+  margin-right: 170px;
+}
+
+.card1 {
+  width: 190px;
+  height: 216px;
+  background-color: none;
+}
+
+.card2 {
+  width: 190px;
+  height: 193px;
+  background-color: none;
+}
+
+.client-section {
+  display: flex;
+  flex-direction: row;
+  border: solid;
+  border-color: #072ac8;
+  width: 100%;
+  position: relative;
+  height: 96px;
+  top: 130px;
+}
+
+/* clients sections */
+
+.logos-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: solid;
+  border-color: green;
+  width: 100%;
+  position: relative;
+  height: 96px;
+  margin: 0 170px;
+}
+
+.clients {
+  display: flex;
+  width: 150px;
+  height: 96px;
+  left: 1120px;
+  top: 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* projects sections */
+
+.project-section {
+  display: flex;
+  flex-direction: column;
+  border: solid;
+  border-color: #072ac8;
+  width: 100%;
+  height: 561px;
+  margin-top: 350px;
+}
+
+.h3-projects {
+  width: 100%;
+  height: 47px;
+  margin-left: 170px;
+  margin-bottom: 70px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: solid;
+  border-color: green;
+  position: relative;
+  height: 444px;
+  margin: 0 170px;
+}
+
+.card-projects {
+  display: flex;
+  flex-direction: column;
+  width: 340px;
+  height: 444px;
+  background-color: #ffffff;
+}
+.project-section img {
+  width: 340px;
+  height: 240px;
+}
+
+.card-projects p {
+  background-color: #ffffff;
+}
+
+.card-projects a {
+  background-color: #ffffff;
+}
+
+.title-card {
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+.text-card {
+  margin-left: 30px;
+}
+
+.link-card {
+  margin-top: 54px;
+  margin-left: 30px;
+  color: #072ac8;
+}
+
+/* Testimonial section */
+
+/* Our services */
+
+/* cta mail */
+
+/* footer */
