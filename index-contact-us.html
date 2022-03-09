@@ -11,7 +11,7 @@
     <title>circle</title>
 </head>
 <body>
-    <header class="bg">
+    <header class="bg-white">
         <img class="logo" src="project-assets/logos/circle.svg" alt="logo circle">
         <nav>
             <ul class="navbar">
@@ -22,11 +22,35 @@
         </nav>
         <a href="#"><button class="cta">Contact Us</button></a>
     </header>
-<div class="content bg">
+<div class="content bg-white">
     <div class="contact-us-section">
-        <h1 class="h1 txt-dark">Contact Us</h1>
+    <h1 class="h1 txt-dark">Contact Us</h1>
+    <div class="contact-form">
+    <form action="form">
+        <div class="form-name">
+            <label class="contact-title txt-medium body-txt-regular" for="name">Full name *</label>
+            <input  class="input-form bg headline-medium" type="text" placeholder="Enter your full name">
+        </div>
+        <div class="form-section">
+            <div class="mail-form">
+            <label class="contact-title txt-medium body-txt-regular" for="name">Email</label>
+            <input  class="input-form bg headline-medium" type="email" placeholder="Enter your email">
+            </div>
+            <div class="phone-form">
+                <label class="contact-title txt-medium body-txt-regular" for="name">Phone</label>
+                <input  class="input-form bg headline-medium" type="tel" placeholder="Enter your phone">
+            </div>
+        </div>
+        <div class="form-message">
+            <label class="contact-title txt-medium body-txt-regular" for="name">Message *</label>
+            <textarea class="input-form bg headline-medium" type="textarea" placeholder="Write your message here...">
+        </div>
+        <button class="submit" type="submit">Submit</button>
+    </form>
+    </div>
 </div>
-<footer class="bg">
+</div>
+<footer class="bg-white">
     <div class="footer-web">
     <div class="footer-left">
         <img class="logo" src="project-assets/logos/circle.svg" alt="logo circle">
