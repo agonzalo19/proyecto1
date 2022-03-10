@@ -25,14 +25,3 @@ function showPost(myData){
    console.log(myData);
 }
 getPost()
-
-
-
-//con for
-//for (let i = 0; i < myData.length; i++) {
-//    title1.innerHTML +=myData[i].title;
-//}
-
-
-
-// Formulario Recoger datos i enviar con el Post de fetch
