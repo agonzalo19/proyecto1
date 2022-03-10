@@ -25,3 +25,6 @@ function showPost(myData){
    console.log(myData);
 }
 getPost()
+
+
+

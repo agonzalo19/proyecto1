@@ -3,7 +3,6 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
 }
 
 /* Colors */
@@ -477,7 +476,6 @@ footer {
 .emoji {
   width: 150px;
   height: 150px;
-  position: absolute;
 }
 
 .tl {
@@ -512,13 +510,6 @@ footer {
   width: 100%;
   height: max-content;
   margin-top: 200px;
-}
-
-.h3-projects {
-  width: 100%;
-  height: max-content;
-  margin-left: 170px;
-  margin-bottom: 70px;
 }
 
 .services {
@@ -1009,7 +1000,8 @@ footer {
   /*PAGE CONTACT US*/
 
   .contact-us-section {
-    margin: 20px 0px;
+    margin: 0px;
+    margin-bottom: 60px;
     min-height: 100%;
     padding: 30px 0px;
   }

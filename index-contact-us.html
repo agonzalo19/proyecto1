@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"
+    />  
     <title>circle</title>
 </head>
 <body>
@@ -15,39 +17,42 @@
         <a href="/index.html"><img class="logo" src="project-assets/logos/circle.svg" alt="logo circle"></a>
         <nav>
             <ul class="navbar">
-                <li> <a href="/index.html">Home</a></li>
-                <li> <a href="/index-project.html">Projects</a></li>
+                <li> <a href="index.html">Home</a></li>
+                <li> <a href="index-project.html">Projects</a></li>
                 <li> <a href="#services">Services</a></li>
             </ul>
         </nav>
-        <a href="index-contact-us.html"><button class="cta">Contact Us</button></a>
+        <a href="/index-contact-us.html"><button class="cta">Contact Us</button></a>
+        <div class="burger-menu">
+            <span class="material-icons">menu</span>
+        </div>
     </header>
 <div class="content bg-white">
     <div class="contact-us-section">
     <h1 class="h1 txt-dark">Contact Us</h1>
     <div class="contact-form">
-    <form action="form">
+
         <div class="form-name">
             <label class="contact-title txt-medium body-txt-regular" for="name">Full name *</label>
-            <input  class="input-form bg headline-medium" type="text" placeholder="Enter your full name">
+            <input  class="fullname input-form bg headline-medium" type="text" placeholder="Enter your full name">
         </div>
         <div class="form-section">
             <div class="mail-form">
             <label class="contact-title txt-medium body-txt-regular" for="name">Email</label>
-            <input  class="input-form bg headline-medium" type="email" placeholder="Enter your email">
+            <input  class="email-input input-form bg headline-medium" type="email" placeholder="Enter your email">
             </div>
             <div class="phone-form">
                 <label class="contact-title txt-medium body-txt-regular" for="name">Phone</label>
-                <input  class="input-form bg headline-medium" type="tel" placeholder="Enter your phone">
+                <input  class="phone-input input-form bg headline-medium" type="tel" placeholder="Enter your phone">
             </div>
         </div>
         <div class="form-message">
             <label class="contact-title txt-medium body-txt-regular" for="name">Message *</label>
-            <textarea class="input-form bg headline-medium" type="textarea" placeholder="Write your message here...">
+            <textarea class="message-input input-form bg headline-medium" type="textarea" placeholder="Write your message here...">
                 </textarea>
         </div>
-        <button class="submit txt-white headline-regular" type="submit">Submit</button>
-    </form>
+        <button class="submit txt-white headline-regular">Submit</button>
+
     </div>
 </div>
 </div>
@@ -67,5 +72,6 @@
     </div>
     </div>
 </footer>
+<script src="/index-contact-us.js"></script>
 </body>
 </html>
