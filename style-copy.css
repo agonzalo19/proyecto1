@@ -705,6 +705,11 @@ footer {
   background-color: var(--primary);
   width: 100%;
   min-height: 80px;
+  border: none;
+}
+
+.submit:hover {
+  background-color: var(--neutral-dark);
 }
 
 /* MEDIA QUERIES START */
@@ -999,5 +1004,24 @@ footer {
 
   .project-imatge {
     margin-top: 40px;
+  }
+
+  /*PAGE CONTACT US*/
+
+  .contact-us-section {
+    margin: 20px 0px;
+    min-height: 100%;
+    padding: 30px 0px;
+  }
+  .form-section {
+    flex-direction: column;
+  }
+
+  .phone-form {
+    margin-left: 0px;
+  }
+
+  .mail-form {
+    margin-right: 0px;
   }
 }
