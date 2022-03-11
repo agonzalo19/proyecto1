@@ -378,8 +378,8 @@ footer {
 .h3-projects {
   width: 100%;
   height: max-content;
-  margin-left: 170px;
   margin-bottom: 70px;
+  padding-left: 170px;
 }
 
 .projects {
@@ -835,11 +835,11 @@ footer {
   /* hero section > image */
 
   .card1 {
-    visibility: hidden;
+    display: none;
   }
 
   .card2 {
-    visibility: hidden;
+    display: none;
   }
 
   .imatge-hero {
@@ -873,7 +873,7 @@ footer {
   }
 
   .h3-projects {
-    margin-left: 0px;
+    padding-left: 0px;
     text-align: center;
   }
 
